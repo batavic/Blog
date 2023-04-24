@@ -1,0 +1,66 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #8f46a5 !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 90px;
+	background-color: #8f46a5;
+}
+
+.footer p {
+	margin-top: 0.7rem;
+	font-size: 14px;
+    color: #fff;
+}
+
+.icon-bottom{
+    margin-top:1.3rem;
+    margin-left:1rem;
+}
+
+.description{
+    display: flex;
+}
+
+.about{
+    line-height: 2.5rem;
+}
+
+.about-img{
+    width:100%;
+    border-radius: 100%;
+}
+
+.about-container{
+    padding-top:10rem;
+    padding-bottom:17rem;
+}
+
+.add-post-container{
+    text-align:center;
+}
+
+.contact-container{
+    padding:5% 5% 7.5% 5%;
+}

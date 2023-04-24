@@ -1,0 +1,30 @@
+
+
+<%- include("partials/header") -%>
+
+<h1> Home </h1>
+<p> <%= par %> </p>
+
+<hr>
+
+<% for(var i=0; i<posts.length; i++){ %>
+    <h2> <%= posts[i].title %> </h2>
+    <p> <%= posts[i].text.substring(0,100) + " ..." %> <span> <a href="/posts/<%=posts[i]._id%>" >Read more</a> </span> </p>
+<% } %>
+
+<hr>
+
+<div class="add-post-container">
+
+    <form method="post">
+
+        <button type="submit" class="btn btn-secondary btn-lg">+</button>
+    
+    </form>
+    
+</div>
+
+<%- include("partials/footer") -%>
+
+
+
